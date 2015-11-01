@@ -21,6 +21,7 @@ public class DTNode{
 		children = new HashMap<Double,DTNode>();
 		instanceSet = set;
 	}
+	
 	public Attribute getAttribute() {
 		return attribute;
 	}
@@ -36,8 +37,15 @@ public class DTNode{
 		return this;
 	}
 	
+	public DataSet getDataSet(){
+		return instanceSet;
+	}
+	
 	public String getResult(){
 		return instanceSet.getClassValue();
+	}
+	public String toString(){
+		return this.attribute.toString();
 	}
 
 }

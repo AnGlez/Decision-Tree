@@ -1,0 +1,16 @@
+@relation weather.symbolic
+
+@attribute temperature {hot, mild, cool}
+@attribute windy {TRUE, FALSE}
+@attribute play {yes, no}
+
+@data
+hot,FALSE,no
+hot,TRUE,no
+mild,FALSE,yes
+cool,TRUE,no
+cool,TRUE,yes
+mild,FALSE,no
+mild,FALSE,yes
+hot,FALSE,yes
+mild,TRUE,no
