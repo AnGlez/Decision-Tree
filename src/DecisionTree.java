@@ -19,7 +19,12 @@ public class DecisionTree {
 	public DecisionTree(String path) {
 		depth = 0;
 		try {
+<<<<<<< Updated upstream
 			
+=======
+			System.out.println("This is the path" +path);
+
+>>>>>>> Stashed changes
 			BufferedReader reader = new BufferedReader(new FileReader(path));
 			logger.log("Created new tree from file: " + path);
 			Instances in = new Instances(reader);
@@ -206,8 +211,12 @@ public class DecisionTree {
 	}
 
 	public static void main(String[] args) {
+<<<<<<< Updated upstream
 		
 		String path = "weather.arff"; // change this variable to test a data set
+=======
+		String path = "vote.arff"; // change this variable to test a data set
+>>>>>>> Stashed changes
 		DecisionTree tree = new DecisionTree(path);
 		tree.split(tree.getRoot());
 		logger.log("Finished splitting tree");
