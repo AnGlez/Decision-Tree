@@ -123,42 +123,48 @@ public class DataSet {
 
 	public double infoGain(Attribute at) {
 		
-		int totalValues = at.numValues();		
+		int totalValues = at.numValues();
+		//Map that contains the attribute's value and an arraylist of instances that have that value
 		HashMap<Double,	ArrayList<Instance>> countValues = new HashMap<Double,ArrayList<Instance>>(totalValues);
 		
 		double attVal;
+		//iterate through current set instances
 		for (int i = 0; i < numInstances; i++){
+			//attribute's value on "at"
 			attVal = instances.get(i).value(at);
+			//if atribute's value hasn't been counted
 			if ( !countValues.containsKey(attVal) ){
 				countValues.put(attVal, new ArrayList<Instance>());
 			}
+			//add instance to its correspondent attribute value
 			countValues.get(attVal).add(instances.get(i));
 		}
 		
+		//calculate set's entropy
 		double result = calculateEntropy(classAttribute);
 		Iterator it = countValues.entrySet().iterator();
-	    while (it.hasNext()) {
-	        Map.Entry pair = (Map.Entry)it.next();
-	        HashMap<Double,Integer> countResult = new HashMap<Double, Integer>(classAttribute.numValues());
-	        ArrayList<Instance> attInstances =(ArrayList<Instance>) pair.getValue();	        
+	    while (it.hasNext()) { //iterate through attribute/instance map
+	        Map.Entry pair = (Map.Entry)it.next(); //pair contains attribute value and its instances
+	        HashMap<Double,Integer> countResult = new HashMap<Double, Integer>(classAttribute.numValues()); //map that separates instances on the class attribute
+	        ArrayList<Instance> attInstances =(ArrayList<Instance>) pair.getValue(); //instances on that value	        
 	        
-	        for (Instance in : attInstances){
+	        for (Instance in : attInstances){ //iterate through instances on each attribute value
 	        	
-	        	if (!countResult.containsKey(in.value(classAttribute))){
+	        	if (!countResult.containsKey(in.value(classAttribute))){ //if map doesn't contain class attribute's value, add it 
 	        		countResult.put(in.value(classAttribute), 0);
 	        	}
 	        	int val = countResult.get(in.value(classAttribute));
-	        	countResult.put(in.value(classAttribute), val + 1);
+	        	countResult.put(in.value(classAttribute), val + 1); // ex: humidity : normal ->yes ++
 	        }
 	        
 	        Iterator it2 = countResult.entrySet().iterator();
 			double attEntropy = 0;
 			
+			// round 1: sunny {yes, no}, 2: overcast {yes,no}, 3: rainy {yes, no}
 		    while (it2.hasNext()) {
 		    	Map.Entry pair2 = (Map.Entry)it2.next();
-		    	int count = (int)pair2.getValue();
+		    	int count = (int)pair2.getValue(); //how many yes or no in current attribute value
 		    	attEntropy+= (count/attInstances.size()) * ( (Math.log10(attInstances.size()/count)) / Math.log10(2) );
-		    	//attEntropy+= (count/attInstances.size()) * ( Math.log10(attInstances.size()/count) );
 
 		    }
 		    result -= attEntropy * (attInstances.size()/numInstances);

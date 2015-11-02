@@ -1,524 +1,2271 @@
-Created new tree from file: supermarket.arff
+Created new tree from file: weather.arff
 
-Entropy of set in depth 0, node @attribute department1 {t}: 0.9450398353069126
+Created new tree from file: weather.arff
 
-Added child: @attribute department2 {t} to node: @attribute department1 {t} if : 0.0
+Created new tree from file: weather.arff
 
-Entropy of set in depth 1, node @attribute department2 {t}: 0.9973866676054015
+Created new tree from file: weather.arff
 
-Added child: @attribute department3 {t} to node: @attribute department2 {t} if : 0.0
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
 
-Entropy of set in depth 2, node @attribute department3 {t}: 0.8003922080453356
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
 
-Added child: @attribute department4 {t} to node: @attribute department3 {t} if : NaN
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
 
-Entropy of set in depth 3, node @attribute department4 {t}: 0.8003922080453356
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Skipped splitting @attribute department4 {t} with entropy 0.0, 37 instances, 212attributes, and depth 3
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
 
-Added child: @attribute department5 {t} to node: @attribute department4 {t} if : NaN
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Entropy of set in depth 4, node @attribute department5 {t}: 0.8112781244591328
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
 
-Skipped splitting @attribute department5 {t} with entropy 0.0, 36 instances, 211attributes, and depth 4
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
 
-Added child: @attribute department6 {t} to node: @attribute department5 {t} if : NaN
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
 
-Entropy of set in depth 5, node @attribute department6 {t}: 0.7755126581331477
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
 
-Added child: @attribute department7 {t} to node: @attribute department6 {t} if : NaN
+Finished splitting tree
 
-Entropy of set in depth 6, node @attribute department7 {t}: 0.7755126581331477
+-----------------------------------------------------------
 
-Added child: @attribute department8 {t} to node: @attribute department7 {t} if : NaN
 
-Entropy of set in depth 7, node @attribute department8 {t}: 0.7755126581331477
+Created new tree from file: weather.arff
 
-Added child: @attribute department9 {t} to node: @attribute department8 {t} if : NaN
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
 
-Entropy of set in depth 8, node @attribute department9 {t}: 0.7755126581331477
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
 
-Added child: @attribute 'grocery misc' {t} to node: @attribute department9 {t} if : NaN
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
 
-Entropy of set in depth 9, node @attribute 'grocery misc' {t}: 0.7755126581331477
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Skipped splitting @attribute 'grocery misc' {t} with entropy 0.9182958340544894, 35 instances, 206attributes, and depth 9
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
 
-Added child: @attribute department11 {t} to node: @attribute 'grocery misc' {t} if : NaN
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Entropy of set in depth 10, node @attribute department11 {t}: 0.6962122601251458
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
 
-Added child: @attribute 'baby needs' {t} to node: @attribute department11 {t} if : NaN
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
 
-Entropy of set in depth 11, node @attribute 'baby needs' {t}: 0.6962122601251458
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
 
-Skipped splitting @attribute 'baby needs' {t} with entropy 0.0, 32 instances, 204attributes, and depth 11
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
 
-Added child: @attribute 'bread and cake' {t} to node: @attribute 'baby needs' {t} if : NaN
+Finished splitting tree
 
-Entropy of set in depth 12, node @attribute 'bread and cake' {t}: 0.8112781244591328
+-----------------------------------------------------------
 
-Added child: @attribute 'baking needs' {t} to node: @attribute 'bread and cake' {t} if : 0.0
 
-Entropy of set in depth 13, node @attribute 'baking needs' {t}: 0.7424875695421235
+Created new tree from file: weather.arff
 
-Added child: @attribute coupons {t} to node: @attribute 'baking needs' {t} if : 0.0
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
 
-Entropy of set in depth 14, node @attribute coupons {t}: 0.3712323266408756
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
 
-Added child: @attribute juice-sat-cord-ms {t} to node: @attribute coupons {t} if : NaN
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
 
-Entropy of set in depth 15, node @attribute juice-sat-cord-ms {t}: 0.3712323266408756
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Added child: @attribute tea {t} to node: @attribute juice-sat-cord-ms {t} if : 0.0
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
 
-Entropy of set in depth 16, node @attribute tea {t}: 0.5916727785823274
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Skipped splitting @attribute tea {t} with entropy 0.9182958340544894, 7 instances, 199attributes, and depth 16
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
 
-Skipped splitting @attribute tea {t} with entropy 0.0, 7 instances, 199attributes, and depth 16
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
 
-Skipped splitting @attribute juice-sat-cord-ms {t} with entropy 0.0, 14 instances, 199attributes, and depth 16
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
 
-Added child: @attribute biscuits {t} to node: @attribute 'baking needs' {t} if : NaN
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
 
-Entropy of set in depth 17, node @attribute biscuits {t}: 0.9709505944546687
+Finished splitting tree
 
-Skipped splitting @attribute biscuits {t} with entropy 0.0, 5 instances, 198attributes, and depth 17
+-----------------------------------------------------------
 
-Skipped splitting @attribute biscuits {t} with entropy 0.0, 5 instances, 198attributes, and depth 17
 
-Added child: @attribute 'canned fish-meat' {t} to node: @attribute 'bread and cake' {t} if : NaN
+Created new tree from file: weather.arff
 
-Entropy of set in depth 18, node @attribute 'canned fish-meat' {t}: 0.9709505944546687
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
 
-Skipped splitting @attribute 'canned fish-meat' {t} with entropy 0.0, 5 instances, 197attributes, and depth 18
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
 
-Added child: @attribute 'canned fruit' {t} to node: @attribute 'canned fish-meat' {t} if : NaN
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
 
-Entropy of set in depth 19, node @attribute 'canned fruit' {t}: 1.0
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Added child: @attribute 'canned vegetables' {t} to node: @attribute 'canned fruit' {t} if : NaN
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
 
-Entropy of set in depth 20, node @attribute 'canned vegetables' {t}: 1.0
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Added child: @attribute 'breakfast food' {t} to node: @attribute 'canned vegetables' {t} if : NaN
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
 
-Entropy of set in depth 21, node @attribute 'breakfast food' {t}: 1.0
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
 
-Skipped splitting @attribute 'breakfast food' {t} with entropy 0.0, 4 instances, 194attributes, and depth 21
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
 
-Skipped splitting @attribute 'breakfast food' {t} with entropy 0.9182958340544894, 4 instances, 194attributes, and depth 21
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
 
-Added child: @attribute 'cigs-tobacco pkts' {t} to node: @attribute department2 {t} if : NaN
+Finished splitting tree
 
-Entropy of set in depth 22, node @attribute 'cigs-tobacco pkts' {t}: 0.9952399928060551
+-----------------------------------------------------------
 
-Added child: @attribute 'cigarette cartons' {t} to node: @attribute 'cigs-tobacco pkts' {t} if : 0.0
 
-Entropy of set in depth 23, node @attribute 'cigarette cartons' {t}: 0.9948631079048571
+Created new tree from file: weather.arff
 
-Added child: @attribute cleaners-polishers {t} to node: @attribute 'cigarette cartons' {t} if : NaN
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
 
-Entropy of set in depth 24, node @attribute cleaners-polishers {t}: 0.9948631079048571
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
 
-Added child: @attribute coffee {t} to node: @attribute cleaners-polishers {t} if : 0.0
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
 
-Entropy of set in depth 25, node @attribute coffee {t}: 0.9852281360342515
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Added child: @attribute sauces-gravy-pkle {t} to node: @attribute coffee {t} if : 0.0
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
 
-Entropy of set in depth 26, node @attribute sauces-gravy-pkle {t}: 0.8314743880097293
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Added child: @attribute confectionary {t} to node: @attribute sauces-gravy-pkle {t} if : 0.0
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
 
-Entropy of set in depth 27, node @attribute confectionary {t}: 0.39124356362925566
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
 
-Added child: @attribute puddings-deserts {t} to node: @attribute confectionary {t} if : 0.0
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
 
-Entropy of set in depth 28, node @attribute puddings-deserts {t}: 0.5435644431995964
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
 
-Skipped splitting @attribute puddings-deserts {t} with entropy 0.0, 8 instances, 187attributes, and depth 28
+Finished splitting tree
 
-Added child: @attribute dishcloths-scour {t} to node: @attribute puddings-deserts {t} if : NaN
+-----------------------------------------------------------
 
-Entropy of set in depth 29, node @attribute dishcloths-scour {t}: 0.7219280948873623
 
-Skipped splitting @attribute dishcloths-scour {t} with entropy 0.0, 5 instances, 186attributes, and depth 29
+Created new tree from file: weather.arff
 
-Skipped splitting @attribute dishcloths-scour {t} with entropy 0.9182958340544894, 5 instances, 186attributes, and depth 29
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
 
-Skipped splitting @attribute confectionary {t} with entropy 0.0, 13 instances, 186attributes, and depth 29
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
 
-Added child: @attribute deod-disinfectant {t} to node: @attribute sauces-gravy-pkle {t} if : NaN
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
 
-Entropy of set in depth 30, node @attribute deod-disinfectant {t}: 0.9182958340544894
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Skipped splitting @attribute deod-disinfectant {t} with entropy 0.0, 6 instances, 185attributes, and depth 30
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
 
-Added child: @attribute 'frozen foods' {t} to node: @attribute deod-disinfectant {t} if : NaN
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Entropy of set in depth 31, node @attribute 'frozen foods' {t}: 0.9709505944546687
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
 
-Added child: @attribute 'razor blades' {t} to node: @attribute 'frozen foods' {t} if : 0.0
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
 
-Entropy of set in depth 32, node @attribute 'razor blades' {t}: 1.0
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
 
-Added child: @attribute 'fuels-garden aids' {t} to node: @attribute 'razor blades' {t} if : NaN
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
 
-Entropy of set in depth 33, node @attribute 'fuels-garden aids' {t}: 1.0
+Finished splitting tree
 
-Added child: @attribute spices {t} to node: @attribute 'fuels-garden aids' {t} if : NaN
+-----------------------------------------------------------
 
-Entropy of set in depth 34, node @attribute spices {t}: 1.0
 
-Added child: @attribute jams-spreads {t} to node: @attribute spices {t} if : NaN
+Created new tree from file: weather.arff
 
-Entropy of set in depth 35, node @attribute jams-spreads {t}: 1.0
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
 
-Skipped splitting @attribute jams-spreads {t} with entropy 0.0, 4 instances, 180attributes, and depth 35
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
 
-Skipped splitting @attribute jams-spreads {t} with entropy 0.9182958340544894, 4 instances, 180attributes, and depth 35
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
 
-Skipped splitting @attribute 'frozen foods' {t} with entropy 0.0, 5 instances, 180attributes, and depth 35
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Added child: @attribute insecticides {t} to node: @attribute coffee {t} if : NaN
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
 
-Entropy of set in depth 36, node @attribute insecticides {t}: 0.9967916319816366
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Added child: @attribute 'pet foods' {t} to node: @attribute insecticides {t} if : 0.0
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
 
-Entropy of set in depth 37, node @attribute 'pet foods' {t}: 1.0
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
 
-Skipped splitting @attribute 'pet foods' {t} with entropy 0.9182958340544894, 4 instances, 178attributes, and depth 37
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
 
-Skipped splitting @attribute 'pet foods' {t} with entropy 0.0, 4 instances, 178attributes, and depth 37
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
 
-Added child: @attribute 'laundry needs' {t} to node: @attribute insecticides {t} if : NaN
+Finished splitting tree
 
-Entropy of set in depth 38, node @attribute 'laundry needs' {t}: 0.9957274520849255
+-----------------------------------------------------------
 
-Added child: @attribute 'party snack foods' {t} to node: @attribute 'laundry needs' {t} if : 0.0
 
-Entropy of set in depth 39, node @attribute 'party snack foods' {t}: 0.9940302114769565
+Created new tree from file: weather.arff
 
-Added child: @attribute 'tissues-paper prd' {t} to node: @attribute 'party snack foods' {t} if : 0.0
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
 
-Entropy of set in depth 40, node @attribute 'tissues-paper prd' {t}: 1.0
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
 
-Skipped splitting @attribute 'tissues-paper prd' {t} with entropy 0.0, 6 instances, 175attributes, and depth 40
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
 
-Skipped splitting @attribute 'tissues-paper prd' {t} with entropy 0.0, 6 instances, 175attributes, and depth 40
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Added child: @attribute wrapping {t} to node: @attribute 'party snack foods' {t} if : NaN
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
 
-Entropy of set in depth 41, node @attribute wrapping {t}: 0.9709505944546687
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Skipped splitting @attribute wrapping {t} with entropy 0.0, 5 instances, 174attributes, and depth 41
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
 
-Added child: @attribute 'dried vegetables' {t} to node: @attribute wrapping {t} if : NaN
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
 
-Entropy of set in depth 42, node @attribute 'dried vegetables' {t}: 1.0
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
 
-Added child: @attribute 'pkt-canned soup' {t} to node: @attribute 'dried vegetables' {t} if : NaN
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
 
-Entropy of set in depth 43, node @attribute 'pkt-canned soup' {t}: 1.0
+Finished splitting tree
 
-Added child: @attribute 'soft drinks' {t} to node: @attribute 'pkt-canned soup' {t} if : NaN
+-----------------------------------------------------------
 
-Entropy of set in depth 44, node @attribute 'soft drinks' {t}: 1.0
 
-Skipped splitting @attribute 'soft drinks' {t} with entropy 0.9182958340544894, 4 instances, 171attributes, and depth 44
+Created new tree from file: weather.arff
 
-Skipped splitting @attribute 'soft drinks' {t} with entropy 0.0, 4 instances, 171attributes, and depth 44
+Created new tree from file: weather.arff
 
-Added child: @attribute 'health food other' {t} to node: @attribute 'laundry needs' {t} if : NaN
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
 
-Entropy of set in depth 45, node @attribute 'health food other' {t}: 0.9967916319816366
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
 
-Skipped splitting @attribute 'health food other' {t} with entropy 0.9182958340544894, 15 instances, 170attributes, and depth 45
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
 
-Added child: @attribute 'beverages hot' {t} to node: @attribute 'health food other' {t} if : NaN
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Entropy of set in depth 46, node @attribute 'beverages hot' {t}: 0.9798687566511528
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
 
-Added child: @attribute 'health&beauty misc' {t} to node: @attribute 'beverages hot' {t} if : NaN
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Entropy of set in depth 47, node @attribute 'health&beauty misc' {t}: 0.9798687566511528
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
 
-Skipped splitting @attribute 'health&beauty misc' {t} with entropy 0.0, 12 instances, 168attributes, and depth 47
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
 
-Added child: @attribute deodorants-soap {t} to node: @attribute 'health&beauty misc' {t} if : NaN
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
 
-Entropy of set in depth 48, node @attribute deodorants-soap {t}: 0.94566030460064
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
 
-Skipped splitting @attribute deodorants-soap {t} with entropy 0.0, 11 instances, 167attributes, and depth 48
+Finished splitting tree
 
-Added child: @attribute 'mens toiletries' {t} to node: @attribute deodorants-soap {t} if : NaN
+-----------------------------------------------------------
 
-Entropy of set in depth 49, node @attribute 'mens toiletries' {t}: 0.5435644431995964
 
-Skipped splitting @attribute 'mens toiletries' {t} with entropy 0.0, 8 instances, 166attributes, and depth 49
+Created new tree from file: weather.arff
 
-Added child: @attribute medicines {t} to node: @attribute 'mens toiletries' {t} if : NaN
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
 
-Entropy of set in depth 50, node @attribute medicines {t}: 0.5916727785823274
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
 
-Added child: @attribute haircare {t} to node: @attribute medicines {t} if : NaN
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
 
-Entropy of set in depth 51, node @attribute haircare {t}: 0.5916727785823274
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Skipped splitting @attribute haircare {t} with entropy 0.0, 7 instances, 164attributes, and depth 51
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
 
-Skipped splitting @attribute haircare {t} with entropy 0.0, 7 instances, 164attributes, and depth 51
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Added child: @attribute 'dental needs' {t} to node: @attribute cleaners-polishers {t} if : NaN
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
 
-Entropy of set in depth 52, node @attribute 'dental needs' {t}: 0.97663491144401
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
 
-Added child: @attribute lotions-creams {t} to node: @attribute 'dental needs' {t} if : 0.0
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
 
-Entropy of set in depth 53, node @attribute lotions-creams {t}: 0.9656361333706098
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
 
-Added child: @attribute 'sanitary pads' {t} to node: @attribute lotions-creams {t} if : NaN
+Finished splitting tree
 
-Entropy of set in depth 54, node @attribute 'sanitary pads' {t}: 0.9656361333706098
+-----------------------------------------------------------
 
-Skipped splitting @attribute 'sanitary pads' {t} with entropy 1.0, 23 instances, 161attributes, and depth 54
 
-Added child: @attribute cough-cold-pain {t} to node: @attribute 'sanitary pads' {t} if : NaN
+Created new tree from file: weather.arff
 
-Entropy of set in depth 55, node @attribute cough-cold-pain {t}: 0.9587118829771318
+Created new tree from file: weather.arff
 
-Added child: @attribute department57 {t} to node: @attribute cough-cold-pain {t} if : 0.0
+Created new tree from file: weather.arff
 
-Entropy of set in depth 56, node @attribute department57 {t}: 0.8112781244591328
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
 
-Added child: @attribute 'meat misc' {t} to node: @attribute department57 {t} if : NaN
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
 
-Entropy of set in depth 57, node @attribute 'meat misc' {t}: 0.8112781244591328
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
 
-Added child: @attribute cheese {t} to node: @attribute 'meat misc' {t} if : NaN
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Entropy of set in depth 58, node @attribute cheese {t}: 0.8112781244591328
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
 
-Added child: @attribute chickens {t} to node: @attribute cheese {t} if : NaN
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Entropy of set in depth 59, node @attribute chickens {t}: 0.8112781244591328
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
 
-Added child: @attribute milk-cream {t} to node: @attribute chickens {t} if : NaN
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
 
-Entropy of set in depth 60, node @attribute milk-cream {t}: 0.8112781244591328
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
 
-Added child: @attribute cold-meats {t} to node: @attribute milk-cream {t} if : 0.0
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
 
-Entropy of set in depth 61, node @attribute cold-meats {t}: 0.8112781244591328
+Finished splitting tree
 
-Skipped splitting @attribute cold-meats {t} with entropy 0.0, 4 instances, 154attributes, and depth 61
+-----------------------------------------------------------
 
-Skipped splitting @attribute cold-meats {t} with entropy 0.9182958340544894, 4 instances, 154attributes, and depth 61
 
-Added child: @attribute 'deli gourmet' {t} to node: @attribute cough-cold-pain {t} if : NaN
+Created new tree from file: weather.arff
 
-Entropy of set in depth 62, node @attribute 'deli gourmet' {t}: 0.9774178175281716
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
 
-Skipped splitting @attribute 'deli gourmet' {t} with entropy 0.0, 17 instances, 153attributes, and depth 62
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
 
-Added child: @attribute margarine {t} to node: @attribute 'deli gourmet' {t} if : NaN
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
 
-Entropy of set in depth 63, node @attribute margarine {t}: 0.9182958340544894
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Added child: @attribute salads {t} to node: @attribute margarine {t} if : 0.0
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
 
-Entropy of set in depth 64, node @attribute salads {t}: 0.9940302114769565
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Added child: @attribute 'small goods' {t} to node: @attribute salads {t} if : NaN
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
 
-Entropy of set in depth 65, node @attribute 'small goods' {t}: 0.9940302114769565
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
 
-Added child: @attribute 'dairy foods' {t} to node: @attribute 'small goods' {t} if : 0.0
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
 
-Entropy of set in depth 66, node @attribute 'dairy foods' {t}: 0.9709505944546687
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
 
-Added child: @attribute 'fruit drinks' {t} to node: @attribute 'dairy foods' {t} if : NaN
+Finished splitting tree
 
-Entropy of set in depth 67, node @attribute 'fruit drinks' {t}: 0.9709505944546687
+-----------------------------------------------------------
 
-Added child: @attribute 'delicatessen misc' {t} to node: @attribute 'fruit drinks' {t} if : NaN
 
-Entropy of set in depth 68, node @attribute 'delicatessen misc' {t}: 0.9709505944546687
+Created new tree from file: weather.arff
 
-Added child: @attribute department70 {t} to node: @attribute 'delicatessen misc' {t} if : NaN
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
 
-Entropy of set in depth 69, node @attribute department70 {t}: 0.9709505944546687
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
 
-Added child: @attribute beef {t} to node: @attribute department70 {t} if : NaN
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
 
-Entropy of set in depth 70, node @attribute beef {t}: 0.9709505944546687
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Added child: @attribute hogget {t} to node: @attribute beef {t} if : 0.0
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
 
-Entropy of set in depth 71, node @attribute hogget {t}: 0.9709505944546687
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Added child: @attribute lamb {t} to node: @attribute hogget {t} if : NaN
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
 
-Entropy of set in depth 72, node @attribute lamb {t}: 0.9709505944546687
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
 
-Added child: @attribute 'pet food' {t} to node: @attribute lamb {t} if : NaN
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
 
-Entropy of set in depth 73, node @attribute 'pet food' {t}: 0.9709505944546687
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
 
-Skipped splitting @attribute 'pet food' {t} with entropy 0.0, 5 instances, 142attributes, and depth 73
+Finished splitting tree
 
-Skipped splitting @attribute 'pet food' {t} with entropy 0.9182958340544894, 5 instances, 142attributes, and depth 73
+-----------------------------------------------------------
 
-Added child: @attribute pork {t} to node: @attribute 'small goods' {t} if : NaN
 
-Entropy of set in depth 74, node @attribute pork {t}: 1.0
+Created new tree from file: weather.arff
 
-Added child: @attribute poultry {t} to node: @attribute pork {t} if : NaN
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
 
-Entropy of set in depth 75, node @attribute poultry {t}: 1.0
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
 
-Added child: @attribute veal {t} to node: @attribute poultry {t} if : NaN
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
 
-Entropy of set in depth 76, node @attribute veal {t}: 1.0
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Skipped splitting @attribute veal {t} with entropy 0.0, 6 instances, 139attributes, and depth 76
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
 
-Added child: @attribute 'gourmet meat' {t} to node: @attribute veal {t} if : NaN
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Entropy of set in depth 77, node @attribute 'gourmet meat' {t}: 0.9709505944546687
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
 
-Added child: @attribute department79 {t} to node: @attribute 'gourmet meat' {t} if : NaN
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
 
-Entropy of set in depth 78, node @attribute department79 {t}: 0.9709505944546687
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
 
-Added child: @attribute department80 {t} to node: @attribute department79 {t} if : NaN
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
 
-Entropy of set in depth 79, node @attribute department80 {t}: 0.9709505944546687
+Finished splitting tree
 
-Added child: @attribute department81 {t} to node: @attribute department80 {t} if : NaN
+-----------------------------------------------------------
 
-Entropy of set in depth 80, node @attribute department81 {t}: 0.9709505944546687
 
-Added child: @attribute 'produce misc' {t} to node: @attribute department81 {t} if : NaN
+Created new tree from file: weather.arff
 
-Entropy of set in depth 81, node @attribute 'produce misc' {t}: 0.9709505944546687
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
 
-Skipped splitting @attribute 'produce misc' {t} with entropy 0.0, 5 instances, 134attributes, and depth 81
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
 
-Added child: @attribute fruit {t} to node: @attribute 'produce misc' {t} if : NaN
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
 
-Entropy of set in depth 82, node @attribute fruit {t}: 1.0
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Added child: @attribute plants {t} to node: @attribute fruit {t} if : 0.0
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
 
-Entropy of set in depth 83, node @attribute plants {t}: 1.0
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Added child: @attribute potatoes {t} to node: @attribute plants {t} if : NaN
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
 
-Entropy of set in depth 84, node @attribute potatoes {t}: 1.0
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
 
-Added child: @attribute vegetables {t} to node: @attribute potatoes {t} if : NaN
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
 
-Entropy of set in depth 85, node @attribute vegetables {t}: 1.0
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
 
-Skipped splitting @attribute vegetables {t} with entropy 0.9182958340544894, 4 instances, 130attributes, and depth 85
+Finished splitting tree
 
-Skipped splitting @attribute vegetables {t} with entropy 0.0, 4 instances, 130attributes, and depth 85
+-----------------------------------------------------------
 
-Skipped splitting @attribute margarine {t} with entropy 0.0, 15 instances, 130attributes, and depth 85
 
-Added child: @attribute flowers {t} to node: @attribute 'dental needs' {t} if : NaN
+Created new tree from file: weather.arff
 
-Entropy of set in depth 86, node @attribute flowers {t}: 0.9440870182837794
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
 
-Added child: @attribute department88 {t} to node: @attribute flowers {t} if : NaN
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
 
-Entropy of set in depth 87, node @attribute department88 {t}: 0.9440870182837794
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
 
-Added child: @attribute department89 {t} to node: @attribute department88 {t} if : NaN
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Entropy of set in depth 88, node @attribute department89 {t}: 0.9440870182837794
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
 
-Added child: @attribute 'variety misc' {t} to node: @attribute department89 {t} if : NaN
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Entropy of set in depth 89, node @attribute 'variety misc' {t}: 0.9440870182837794
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
 
-Added child: @attribute brushware {t} to node: @attribute 'variety misc' {t} if : 0.0
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
 
-Entropy of set in depth 90, node @attribute brushware {t}: 0.5916727785823274
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
 
-Added child: @attribute electrical {t} to node: @attribute brushware {t} if : NaN
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
 
-Entropy of set in depth 91, node @attribute electrical {t}: 0.5916727785823274
+Finished splitting tree
 
-Added child: @attribute haberdashery {t} to node: @attribute electrical {t} if : NaN
+-----------------------------------------------------------
 
-Entropy of set in depth 92, node @attribute haberdashery {t}: 0.5916727785823274
 
-Skipped splitting @attribute haberdashery {t} with entropy 0.0, 7 instances, 123attributes, and depth 92
+Created new tree from file: weather.arff
 
-Added child: @attribute kitchen {t} to node: @attribute haberdashery {t} if : NaN
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
 
-Entropy of set in depth 93, node @attribute kitchen {t}: 0.7219280948873623
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
 
-Added child: @attribute manchester {t} to node: @attribute kitchen {t} if : NaN
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
 
-Entropy of set in depth 94, node @attribute manchester {t}: 0.7219280948873623
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Added child: @attribute pantyhose {t} to node: @attribute manchester {t} if : NaN
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
 
-Entropy of set in depth 95, node @attribute pantyhose {t}: 0.7219280948873623
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Added child: @attribute plasticware {t} to node: @attribute pantyhose {t} if : NaN
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
 
-Entropy of set in depth 96, node @attribute plasticware {t}: 0.7219280948873623
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
 
-Skipped splitting @attribute plasticware {t} with entropy 0.0, 5 instances, 119attributes, and depth 96
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
 
-Skipped splitting @attribute plasticware {t} with entropy 0.0, 5 instances, 119attributes, and depth 96
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
 
-Added child: @attribute department98 {t} to node: @attribute 'variety misc' {t} if : NaN
+Finished splitting tree
 
-Entropy of set in depth 97, node @attribute department98 {t}: 0.9575534837147481
+-----------------------------------------------------------
 
-Added child: @attribute stationary {t} to node: @attribute department98 {t} if : NaN
 
-Entropy of set in depth 98, node @attribute stationary {t}: 0.9575534837147481
+Created new tree from file: weather.arff
 
-Added child: @attribute department100 {t} to node: @attribute stationary {t} if : 0.0
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
 
-Entropy of set in depth 99, node @attribute department100 {t}: 0.8935711016541907
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
 
-Added child: @attribute department101 {t} to node: @attribute department100 {t} if : NaN
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
 
-Entropy of set in depth 100, node @attribute department101 {t}: 0.8935711016541907
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Added child: @attribute department102 {t} to node: @attribute department101 {t} if : NaN
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
 
-Entropy of set in depth 101, node @attribute department102 {t}: 0.8935711016541907
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
 
-Stopped splitting with entropy 0.8935711016541907, 29 instances, 114attributes, and depth 101
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
 
-Added child: @attribute 'prepared meals' {t} to node: @attribute stationary {t} if : NaN
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
 
-Entropy of set in depth 102, node @attribute 'prepared meals' {t}: 0.9784493292686189
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
 
-Stopped splitting with entropy 0.9784493292686189, 58 instances, 113attributes, and depth 102
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
 
-Added child: @attribute 'preserving needs' {t} to node: @attribute 'cigs-tobacco pkts' {t} if : NaN
+Finished splitting tree
 
-Entropy of set in depth 103, node @attribute 'preserving needs' {t}: 0.9953124242193561
+-----------------------------------------------------------
 
-Stopped splitting with entropy 0.9953124242193561, 844 instances, 112attributes, and depth 103
 
-Added child: @attribute condiments {t} to node: @attribute department1 {t} if : NaN
+Created new tree from file: weather.arff
 
-Entropy of set in depth 104, node @attribute condiments {t}: 0.9165165783983866
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
 
-Stopped splitting with entropy 0.9165165783983866, 3580 instances, 111attributes, and depth 104
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute outlook {sunny,overcast,rainy} with entropy 0.0, 14 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 2
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 1.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.0
+
+Stopped splitting with entropy 0.0, 4 instances, 1attributes, and depth 2
+
+Added child: @attribute windy {TRUE,FALSE} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 3, node @attribute windy {TRUE,FALSE}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 0attributes, and depth 3
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 1.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.0
+
+Stopped splitting with entropy 0.0, 4 instances, 1attributes, and depth 2
+
+Added child: @attribute windy {TRUE,FALSE} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 3, node @attribute windy {TRUE,FALSE}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 0attributes, and depth 3
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 1.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.0
+
+Stopped splitting with entropy 0.0, 4 instances, 1attributes, and depth 2
+
+Added child: @attribute windy {TRUE,FALSE} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 3, node @attribute windy {TRUE,FALSE}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 0attributes, and depth 3
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 1.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.0
+
+Stopped splitting with entropy 0.0, 4 instances, 1attributes, and depth 2
+
+Added child: @attribute windy {TRUE,FALSE} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 3, node @attribute windy {TRUE,FALSE}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 0attributes, and depth 3
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 1.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.0
+
+Stopped splitting with entropy 0.0, 4 instances, 1attributes, and depth 2
+
+Added child: @attribute windy {TRUE,FALSE} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 3, node @attribute windy {TRUE,FALSE}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 0attributes, and depth 3
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 1.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.0
+
+Stopped splitting with entropy 0.0, 4 instances, 1attributes, and depth 2
+
+Added child: @attribute windy {TRUE,FALSE} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 3, node @attribute windy {TRUE,FALSE}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 0attributes, and depth 3
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 1.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.0
+
+Stopped splitting with entropy 0.0, 4 instances, 1attributes, and depth 2
+
+Added child: @attribute windy {TRUE,FALSE} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 3, node @attribute windy {TRUE,FALSE}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 0attributes, and depth 3
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 1.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.0
+
+Stopped splitting with entropy 0.0, 4 instances, 1attributes, and depth 2
+
+Added child: @attribute windy {TRUE,FALSE} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 3, node @attribute windy {TRUE,FALSE}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 0attributes, and depth 3
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 1.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.0
+
+Stopped splitting with entropy 0.0, 4 instances, 1attributes, and depth 2
+
+Added child: @attribute windy {TRUE,FALSE} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 3, node @attribute windy {TRUE,FALSE}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 0attributes, and depth 3
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 1.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.0
+
+Stopped splitting with entropy 0.0, 4 instances, 1attributes, and depth 2
+
+Added child: @attribute windy {TRUE,FALSE} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 3, node @attribute windy {TRUE,FALSE}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 0attributes, and depth 3
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: breast-cancer.arff
+
+Entropy of set in depth 0, node @attribute age {10-19,20-29,30-39,40-49,50-59,60-69,70-79,80-89,90-99}: 0.8778446951746506
+
+Added child: @attribute menopause {lt40,ge40,premeno} to node: @attribute age {10-19,20-29,30-39,40-49,50-59,60-69,70-79,80-89,90-99} if : 4.0
+
+Entropy of set in depth 1, node @attribute menopause {lt40,ge40,premeno}: 0.8273744775003171
+
+Added child: @attribute tumor-size {0-4,5-9,10-14,15-19,20-24,25-29,30-34,35-39,40-44,45-49,50-54,55-59} to node: @attribute menopause {lt40,ge40,premeno} if : 1.0
+
+Entropy of set in depth 2, node @attribute tumor-size {0-4,5-9,10-14,15-19,20-24,25-29,30-34,35-39,40-44,45-49,50-54,55-59}: 0.7607859931846074
+
+Added child: @attribute inv-nodes {0-2,3-5,6-8,9-11,12-14,15-17,18-20,21-23,24-26,27-29,30-32,33-35,36-39} to node: @attribute tumor-size {0-4,5-9,10-14,15-19,20-24,25-29,30-34,35-39,40-44,45-49,50-54,55-59} if : 8.0
+
+Entropy of set in depth 3, node @attribute inv-nodes {0-2,3-5,6-8,9-11,12-14,15-17,18-20,21-23,24-26,27-29,30-32,33-35,36-39}: 0.863120568566631
+
+Added child: @attribute node-caps {yes,no} to node: @attribute inv-nodes {0-2,3-5,6-8,9-11,12-14,15-17,18-20,21-23,24-26,27-29,30-32,33-35,36-39} if : 0.0
+
+Entropy of set in depth 4, node @attribute node-caps {yes,no}: 0.0
+
+Stopped splitting with entropy 0.0, 4 instances, 4attributes, and depth 4
+
+Skipped splitting @attribute inv-nodes {0-2,3-5,6-8,9-11,12-14,15-17,18-20,21-23,24-26,27-29,30-32,33-35,36-39} with entropy 0.0, 7 instances, 4attributes, and depth 4
+
+Skipped splitting @attribute inv-nodes {0-2,3-5,6-8,9-11,12-14,15-17,18-20,21-23,24-26,27-29,30-32,33-35,36-39} with entropy 0.0, 7 instances, 4attributes, and depth 4
+
+Added child: @attribute deg-malig {1,2,3} to node: @attribute tumor-size {0-4,5-9,10-14,15-19,20-24,25-29,30-34,35-39,40-44,45-49,50-54,55-59} if : 4.0
+
+Entropy of set in depth 5, node @attribute deg-malig {1,2,3}: 0.8812908992306927
+
+Added child: @attribute breast {left,right} to node: @attribute deg-malig {1,2,3} if : 2.0
+
+Entropy of set in depth 6, node @attribute breast {left,right}: 0.8112781244591328
+
+Skipped splitting @attribute breast {left,right} with entropy 0.0, 4 instances, 2attributes, and depth 6
+
+Skipped splitting @attribute breast {left,right} with entropy 1.0, 4 instances, 2attributes, and depth 6
+
+Added child: @attribute breast-quad {left_up,left_low,right_up,right_low,central} to node: @attribute deg-malig {1,2,3} if : 1.0
+
+Entropy of set in depth 7, node @attribute breast-quad {left_up,left_low,right_up,right_low,central}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 1attributes, and depth 7
+
+Skipped splitting @attribute deg-malig {1,2,3} with entropy 0.0, 10 instances, 1attributes, and depth 7
+
+Added child: @attribute irradiat {yes,no} to node: @attribute tumor-size {0-4,5-9,10-14,15-19,20-24,25-29,30-34,35-39,40-44,45-49,50-54,55-59} if : 2.0
+
+Entropy of set in depth 8, node @attribute irradiat {yes,no}: 0.0
+
+Stopped splitting with entropy 0.0, 5 instances, 0attributes, and depth 8
+
+Skipped splitting @attribute tumor-size {0-4,5-9,10-14,15-19,20-24,25-29,30-34,35-39,40-44,45-49,50-54,55-59} with entropy 0.0, 59 instances, 0attributes, and depth 8
+
+Skipped splitting @attribute tumor-size {0-4,5-9,10-14,15-19,20-24,25-29,30-34,35-39,40-44,45-49,50-54,55-59} with entropy 0.0, 59 instances, 0attributes, and depth 8
+
+Skipped splitting @attribute tumor-size {0-4,5-9,10-14,15-19,20-24,25-29,30-34,35-39,40-44,45-49,50-54,55-59} with entropy 0.5435644431995964, 59 instances, 0attributes, and depth 8
+
+Skipped splitting @attribute tumor-size {0-4,5-9,10-14,15-19,20-24,25-29,30-34,35-39,40-44,45-49,50-54,55-59} with entropy 0.0, 59 instances, 0attributes, and depth 8
+
+Skipped splitting @attribute tumor-size {0-4,5-9,10-14,15-19,20-24,25-29,30-34,35-39,40-44,45-49,50-54,55-59} with entropy 0.0, 59 instances, 0attributes, and depth 8
+
+Skipped splitting @attribute tumor-size {0-4,5-9,10-14,15-19,20-24,25-29,30-34,35-39,40-44,45-49,50-54,55-59} with entropy 0.9852281360342515, 59 instances, 0attributes, and depth 8
+
+Skipped splitting @attribute tumor-size {0-4,5-9,10-14,15-19,20-24,25-29,30-34,35-39,40-44,45-49,50-54,55-59} with entropy 0.7219280948873623, 59 instances, 0attributes, and depth 8
+
+Skipped splitting @attribute menopause {lt40,ge40,premeno} with entropy 0.8849636363831529, 96 instances, 0attributes, and depth 8
+
+Skipped splitting @attribute menopause {lt40,ge40,premeno} with entropy 1.0, 96 instances, 0attributes, and depth 8
+
+Skipped splitting @attribute age {10-19,20-29,30-39,40-49,50-59,60-69,70-79,80-89,90-99} with entropy 0.9798687566511528, 286 instances, 0attributes, and depth 8
+
+Skipped splitting @attribute age {10-19,20-29,30-39,40-49,50-59,60-69,70-79,80-89,90-99} with entropy 0.0, 286 instances, 0attributes, and depth 8
+
+Skipped splitting @attribute age {10-19,20-29,30-39,40-49,50-59,60-69,70-79,80-89,90-99} with entropy 0.8791357668533335, 286 instances, 0attributes, and depth 8
+
+Skipped splitting @attribute age {10-19,20-29,30-39,40-49,50-59,60-69,70-79,80-89,90-99} with entropy 0.8812908992306927, 286 instances, 0attributes, and depth 8
+
+Skipped splitting @attribute age {10-19,20-29,30-39,40-49,50-59,60-69,70-79,80-89,90-99} with entropy 0.6500224216483541, 286 instances, 0attributes, and depth 8
+
+Finished splitting tree
+
+-----------------------------------------------------------
+
+
+Created new tree from file: weather.arff
+
+Entropy of set in depth 0, node @attribute outlook {sunny,overcast,rainy}: 0.9402859586706309
+
+Added child: @attribute temperature {hot,mild,cool} to node: @attribute outlook {sunny,overcast,rainy} if : 0.0
+
+Entropy of set in depth 1, node @attribute temperature {hot,mild,cool}: 0.9709505944546687
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 1.0, 5 instances, 2attributes, and depth 1
+
+Skipped splitting @attribute temperature {hot,mild,cool} with entropy 0.0, 5 instances, 2attributes, and depth 1
+
+Added child: @attribute humidity {high,normal} to node: @attribute outlook {sunny,overcast,rainy} if : 1.0
+
+Entropy of set in depth 2, node @attribute humidity {high,normal}: 0.0
+
+Stopped splitting with entropy 0.0, 4 instances, 1attributes, and depth 2
+
+Added child: @attribute windy {TRUE,FALSE} to node: @attribute outlook {sunny,overcast,rainy} if : 2.0
+
+Entropy of set in depth 3, node @attribute windy {TRUE,FALSE}: 0.9709505944546687
+
+Stopped splitting with entropy 0.9709505944546687, 5 instances, 0attributes, and depth 3
 
 Finished splitting tree
 

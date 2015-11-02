@@ -23,15 +23,16 @@ public class Logger {
 	public void log(String msg){
 		
 		try {
+			
 			writer = new FileWriter(file,true);
 			writer.write(msg);
 			writer.write(System.lineSeparator());
 			writer.write(System.lineSeparator());
-
 			writer.flush();
 			writer.close();
+
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
+
 			e.printStackTrace();
 		} 
 	}
